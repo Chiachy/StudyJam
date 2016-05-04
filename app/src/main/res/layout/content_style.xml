@@ -35,7 +35,7 @@
                 android:layout_gravity="center_horizontal" />
 
             <ImageView
-                android:src="@drawable/wayong"
+                android:src="hj"
                 android:layout_width="wrap_content"
                 android:layout_height="230dp"
                 android:id="@+id/imageView4"
