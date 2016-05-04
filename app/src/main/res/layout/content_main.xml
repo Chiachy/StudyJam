@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cn.studyjams.s1.sj68.weijiaqi.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:padding="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="36sp"
+                android:text="游泳历史"
+                android:id="@+id/history_btn"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:padding="16dp"
+                android:textSize="36sp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="游泳分类"
+                android:id="@+id/class_btn"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:padding="16dp"
+                android:textSize="36sp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常用泳姿"
+                android:id="@+id/style_btn"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:textSize="36sp"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场地设备"
+                android:id="@+id/ground_btn"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:textSize="36sp"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="游泳益处"
+                android:id="@+id/benifts_btn"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
